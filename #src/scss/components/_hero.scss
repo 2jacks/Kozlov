@@ -59,6 +59,7 @@
     }
   }
   &__button {
+    text-decoration: none;
     @include font-light();
     font-size: 18px;
     color: #C39F79;
@@ -87,7 +88,7 @@
     transform: translateY(50%);
     width: 100%;
     @media (max-width: 1200px) {
-      transform: translateY(70%);
+      transform: translateY(50%);
     }
   }
   &__picture {
