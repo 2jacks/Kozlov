@@ -1,0 +1,69 @@
+.callback {
+  padding: 86px 0 127px 0;
+  &__header {
+    margin-bottom: 60px;
+  }
+
+}
+
+.callback-form {
+  display: flex;
+  &__label {
+    display: flex;
+    flex-direction: column;
+  }
+  &__label-text {
+    margin-bottom: 10px;
+
+    @include font-light();
+    font-size: 24px;
+    color: #A9A9A9;
+  }
+  &__input {
+    background-color: #E5E5E5;
+    border: none;
+    border-radius: 15px;
+    padding: .8em .5em;
+    max-height: 72px;
+
+    @include font-reg();
+    font-size: 24px;
+    color: #262626;
+    @media (max-width: 767px) {
+      font-size: 18px;
+    }
+    @media (max-width: 575px) {
+      margin-bottom: 15px;
+    }
+  }
+  &__button {
+    border: none;
+    border-radius: 15px;
+    background-color: #C39F79;
+    padding: 1.3em 1.72em;
+    max-height: 72px;
+
+    white-space: nowrap;
+    cursor: pointer;
+
+    @include font-bold();
+    font-size: 18px;
+    color: #fff;
+
+    &:hover {
+
+    }
+    @media (max-width: 991px) {
+      margin-top: 30px;
+      width: 100%;
+    }
+    @media (max-width: 767px) {
+      height: 50px;
+      padding: 0;
+
+    }
+    @media (max-width: 575px) {
+      margin-top: 20px;
+    }
+  }
+}

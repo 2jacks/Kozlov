@@ -1,0 +1,19 @@
+@mixin font-reg {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+@mixin font-semi-bold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+@mixin font-light {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+@mixin font-bold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}

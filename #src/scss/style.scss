@@ -1,0 +1,53 @@
+@import 'reboot';
+@import 'vars';
+@import 'mixins';
+@import 'fonts';
+
+.section-header {
+  .title {
+    margin-bottom: 35px;
+    @media (max-width: 767px) {
+      margin-bottom: 25px;
+    }
+    @media (max-width: 567px) {
+      margin-bottom: 10px;
+    }
+  }
+}
+.title {
+  @include font-semi-bold();
+  font-size: 48px;
+  color: #262626;
+
+  @media (max-width: 767.98px) {
+    font-size: 36px;
+  }
+  @media (max-width: 575.98px) {
+    font-size: 24px;
+  }
+}
+.subtitle {
+  @include font-light();
+  font-size: 24px;
+  color: #A9A9A9;
+  line-height: 1.16;
+
+  @media (max-width: 767.98px) {
+    font-size: 20px;
+  }
+  @media (max-width: 575.98px) {
+    font-size: 18px;
+  }
+}
+.logo {
+  display: block;
+}
+
+@import "components/header";
+@import "components/hero";
+@import "components/story";
+@import "components/team";
+@import "components/cases";
+@import "components/media";
+@import "components/callback";
+
