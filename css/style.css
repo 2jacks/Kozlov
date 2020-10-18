@@ -171,6 +171,7 @@
 }
 
 .hero__button {
+  text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -796,9 +797,9 @@
 
 @media (max-width: 1200px) {
   .hero__gallery {
-    -webkit-transform: translateY(70%);
-    -ms-transform: translateY(70%);
-    transform: translateY(70%);
+    -webkit-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
   }
 
   .cases__line {
